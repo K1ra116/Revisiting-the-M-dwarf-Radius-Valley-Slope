@@ -1,13 +1,7 @@
 # Revisiting-the-M-dwarf-Radius-Valley-Slope
 An undergraduate archival research project measuring the slope of the small-planet radius valley around M dwarfs, using the 2026 NASA Exoplanet Archive — and probing why published measurements of this slope disagree in sign.
-# Revisiting the M-dwarf Radius Valley Slope
 
-An undergraduate archival research project measuring the slope of the
-small-planet radius valley around M dwarfs, using the 2026 NASA Exoplanet
-Archive — and probing why published measurements of this slope disagree
-in sign.
-
-**Author:** Cho Seunghyeon ([email protected])
+**Author:** Cho Seunghyeon (email : akira2007c [at] gmail)
 
 ![Valley slope overlay](figures/fig3_slope_overlay.png)
 
@@ -159,7 +153,7 @@ NASA Exoplanet Archive, Planetary Systems Composite Parameters
    snapshot on a later date, pass it to `pd.read_csv` directly or rename it
    to today's date).
 2. **Let the pipeline download fresh data** — running
-   `python radius_valley_pipeline.py` with no cache present queries the
+   `python final.py` with no cache present queries the
    archive's TAP service automatically and saves a new dated CSV. Note that
    the archive is updated continuously, so a fresh snapshot will differ
    slightly from the 2026-07-06 one and results will shift accordingly.
